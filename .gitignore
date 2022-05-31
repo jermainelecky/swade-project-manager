@@ -8,10 +8,6 @@ node_modules
 # testing
 /coverage
 
-# next.js
-.next
-out
-
 # production
 build
 dist
@@ -29,8 +25,6 @@ yarn-error.log*
 .env
 !.env.example
 
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
+# @mawburn: I usually use yarn & don't want to commit yarn lock if I accidentally use it instead of npm
+# if you switch to yarn, you can remove this
+yarn.lock
