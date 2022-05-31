@@ -9,6 +9,7 @@
     "silvenon.mdx",
     "Gruntfuggly.todo-tree",
     "shardulm94.trailing-spaces",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "EditorConfig.EditorConfig"
   ]
 }
