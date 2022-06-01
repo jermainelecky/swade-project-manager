@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "DavidAnson.vscode-markdownlint",
+    "silvenon.mdx",
+    "Gruntfuggly.todo-tree",
+    "shardulm94.trailing-spaces",
+    "streetsidesoftware.code-spell-checker",
+    "EditorConfig.EditorConfig"
+  ]
+}
