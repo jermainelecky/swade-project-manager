@@ -1,7 +1,7 @@
 import 'dotenv/config'
 
 import Discord, { MessageActionRow, Modal, TextInputComponent, Formatters } from 'discord.js'
-import { token } from './config'
+import config from './config.js'
 
 const client = new Discord.Client({
   intents: ['GUILDS', 'GUILD_PRESENCES', 'GUILD_MESSAGES'],
@@ -111,4 +111,4 @@ client.on('modalSubmit', async modal => {
 //     }
 // })
 
-client.login(token)
+client.login(config.token)
