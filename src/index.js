@@ -95,6 +95,16 @@ client.on('interactionCreate', interaction => {
   // const materials = interaction.fields.getTextInputValue('materials');
   // const tools = interaction.fields.getTextInputValue('tools');
   // const assignees = interaction.fields.getTextInputValue('assignees');
+
+  const embed = new Discord.MessageEmbed()
+    .setTitle(project)
+    .setDescription('SWADE Project Manager')
+    .addField('Successes', successes)
+    .addField('critFail', critFail, true)
+    .addField('cost', cost, true)
+  interaction.reply({ embeds: [embed], ephemeral: true })
+  // 	.then(() => console.log('Reply sent.'))
+  // 	.catch(console.error);
   console.log({ project, successes, critFail, skill, cost })
 })
 
